@@ -1,0 +1,42 @@
+.stock-select-wrapper {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+}
+
+.stock-select {
+    flex: 0 1 30%;
+    margin-left: auto;
+    padding-left: 1rem;
+}
+
+.stock-selected-wrapper {
+    flex: 0 1 50%;
+    display: flex;
+}
+
+.stock-selected-icon img {
+    height: 3rem;
+}
+
+.stock-selected-name {
+    padding-left: 1rem;
+
+    h4 {
+        margin: 0;
+        padding-bottom: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+}
+
+.stock-selected-current {
+    font-weight: bold;
+}
+
+.stock-selected-max {
+    color: var(--primary);
+    font-weight: bold;
+}

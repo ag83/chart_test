@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--font-color);
+    background-color: var(--secondary);
+}
+
+:root{
+    --primary: #b4b4b4;
+    --font-color: #000000;
+    --secondary: #f0f0f0;
+    --chartLight: #d9d9d9;
+    --chartDark: #a3a3a3;
+}

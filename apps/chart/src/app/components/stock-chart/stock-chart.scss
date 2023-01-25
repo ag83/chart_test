@@ -1,0 +1,52 @@
+.stock-chart-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+}
+
+.stock-chart-header {
+    width: 100%;
+
+    h3 {
+        margin: 0;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+}
+
+.axis {
+    .domain {
+        display: none;
+    }
+
+    .tick text {
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: var(--chartDark);
+    }
+}
+
+.y-axis {
+    .tick line{
+        opacity: 0.2;
+        stroke-dasharray: 2 2; 
+    }
+}
+
+.chart-label {
+    font-size: 1.5rem;
+    text-anchor: 'middle';
+}
+
+.label-uppercase {
+    text-transform: uppercase;
+}
+
+.label-small {
+    font-size: 0.7rem;
+}

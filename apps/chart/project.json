@@ -26,7 +26,13 @@
           "extractLicenses": false,
           "optimization": false,
           "sourceMap": true,
-          "vendorChunk": true
+          "vendorChunk": true,
+          "fileReplacements": [
+            {
+              "replace": "apps/chart/src/environments/environment.ts",
+              "with": "apps/chart/src/environments/environment.dev.ts"
+            }
+          ]
         },
         "production": {
           "fileReplacements": [
@@ -49,7 +55,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "chart:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/chart/proxy.conf.json"
       },
       "configurations": {
         "development": {
